@@ -1,6 +1,6 @@
    # Send Mail From Terminal  using gmail and Mutt.
    
-                  ( Command line )
+
 
 We can send mails from our terminals from gmail by using mutt package. 
 
@@ -11,4 +11,13 @@ In such cases ,mutt is very nice package to send mails from command line or scri
 
 Let see how to Install and Configure Mutt package in our PC
 
+# Step 1 :  Install Mutt Package
+
+CentOs  : 
+
+                 # yum install mutt
+
+Ubuntu  :  
+
+                 # sudo apt-get install mutt
 
