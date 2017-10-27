@@ -1,4 +1,4 @@
-   # Send Mail From Terminal  using gmail and Mutt.
+ # Send Mail From Terminal  using gmail and Mutt.
    
 We can send mails from our terminals from gmail by using mutt package. 
 
@@ -9,7 +9,7 @@ In such cases ,mutt is very nice package to send mails from command line or scri
 
 Let see how to Install and Configure Mutt package in our PC
 
-# Step 1 :  Install Mutt Package
+# Install Mutt Package
 
 CentOs   : 
 
@@ -18,7 +18,7 @@ Ubuntu   :
 
                  sudo apt-get install mutt
 
-# Step 2 :  Configure Mutt
+# Configure Mutt
 
 Create these folders
 
@@ -47,7 +47,7 @@ In your gmail, click the gear icon on right corner, open Settings ,Then click on
 
 # Sending Mails :
   
-  1.Sends mail with subject messege body from given file ( msgbody.txt )
+  1.Sends mail with subject, messege body from given file ( msgbody.txt )
                
                mutt -s "Subject here" username@gmail.com < msgbody.txt
   
@@ -59,7 +59,7 @@ In your gmail, click the gear icon on right corner, open Settings ,Then click on
                
                echo "Messege Here" | mutt -s "Subject here" username@gmail.com -a attachment.pdf
    
-   # Reference : 
+# Reference : 
    
    Its highly recomended to visit mutt documentation for more details.
    
