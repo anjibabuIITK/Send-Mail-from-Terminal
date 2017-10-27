@@ -46,11 +46,31 @@ Create Mutt Configuration file ~/.muttrc and add below lines and change your gma
 In your gmail, click the gear icon on right corner, open Settings ,Then click on Forwarding POP/IMAP on top , and enable IMAP Aceess . Click on configuration instructions to know more about IMAP access settings.
 
 # Sending Mails :
-               mutt -s "Test from mutt" user@gmail.com < /tmp/message.txt
+  
+  1.Sends mail with subject messege body from given file ( msgbody.txt )
+               
+               mutt -s "Subject here" username@gmail.com < msgbody.txt
+  
+  2.Sends mail with given subject, msg body and attachment.
+  
+               mutt -s "subject Here" username@gmail.com < msgbody.txt  -a  attachment.pdf
+   
+  3. This command also does same as above but otherway.
+               
+               echo "Messege Here" | mutt -s "Subject here" username@gmail.com -a attachment.pdf
+   
+   # Reference : 
+   
+   Its highly recomended to visit mutt documentation for more details.
+   
+               http://www.mutt.org/#doc
                
                
-               
-  https://unix.stackexchange.com/questions/226936/how-to-install-setup-mutt-with-gmail-on-centos-and-ubuntu
+             # =========================================================================#
+             #                        ANJI BABU KAPAKAYALA                              #
+             #                         IIT KANPUR, INDIA.                               #
+             #==========================================================================#
+
 
 
 
