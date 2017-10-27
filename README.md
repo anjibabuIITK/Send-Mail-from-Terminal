@@ -1,4 +1,6 @@
-   # Send Mail From Terminal ( command line) using gmail and Mutt.
+   # Send Mail From Terminal  using gmail and Mutt.
+   
+                  ( Command line )
 
 We can send mails from our terminals from gmail by using mutt package. 
 
