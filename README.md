@@ -27,9 +27,9 @@ Create these folders
 Create Mutt Configuration file ~/.muttrc and add below lines and change your gmail and password 
 
                 set from = "user@gmail.com"
-                set realname = "Guillermo Garron"
-                set imap_user = "user@gmail.com"
-                set imap_pass = "password"
+                set realname = "ANY NAME"
+                set imap_user = "username@gmail.com"
+                set imap_pass = "gmail-password"
                 set folder = "imaps://imap.gmail.com:993"
                 set spoolfile = "+INBOX"
                 set postponed ="+[Gmail]/Drafts"
@@ -37,7 +37,7 @@ Create Mutt Configuration file ~/.muttrc and add below lines and change your gma
                 set message_cachedir =~/.mutt/cache/bodies
                 set certificate_file =~/.mutt/certificates
                 set smtp_url = "smtp://user@smtp.gmail.com:587/"
-                set smtp_pass = "password"
+                set smtp_pass = "gmail-password"
                 set move = no 
                 set imap_keepalive = 900
   
