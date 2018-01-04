@@ -1,4 +1,4 @@
-# Send Mail From Terminal  using gmail and Mutt.
+# **Send Mail From Terminal  using gmail and Mutt.**
    
   - We can send mails from our terminals from gmail by using mutt package. 
 
@@ -9,7 +9,7 @@
   
   - Let see how to Install and Configure Mutt package in our PC
 
-# Install Mutt Package
+# **Install Mutt Package**
 
 **CentOs   :** 
                  
@@ -19,13 +19,13 @@
 
        sudo apt-get install mutt
 
-# Configure Mutt
+# **Configure Mutt**
 
-Create these folders
+- Create these folders
 
                   mkdir -p /.mutt/cache
                   
-Create **Mutt** Configuration file **~/.muttrc** and add below lines and change your gmail and password 
+- Create **Mutt** Configuration file **~/.muttrc** and add below lines and change your gmail and password 
 
                 set from = "user@gmail.com"
                 set realname = "ANY NAME"
@@ -42,27 +42,27 @@ Create **Mutt** Configuration file **~/.muttrc** and add below lines and change 
                 set move = no 
                 set imap_keepalive = 900
   
-# Gmail Setup : 
+# **Gmail Setup :**
 
 In your gmail, click the gear icon on right corner, open Settings ,Then click on Forwarding POP/IMAP on top , and enable IMAP Aceess . Click on configuration instructions to know more about IMAP access settings.
 
-# Sending Mails :
+# **Sending Mails :**
   
-  1.Sends mail with subject, messege body from given file ( msgbody.txt )
+  - Sends mail with subject, messege body from given file ( msgbody.txt )
                
-      mutt -s "Subject here" username@gmail.com < msgbody.txt
+        mutt -s "Subject here" username@gmail.com < msgbody.txt
   
-  2.Sends mail with given subject, msg body and attachment.
+  - Sends mail with given subject, msg body and attachment.
   
-      mutt -s "subject Here" username@gmail.com < msgbody.txt  -a  attachment.pdf
+        mutt -s "subject Here" username@gmail.com < msgbody.txt  -a  attachment.pdf
    
-  3. This command also does same as above but otherway.
+  - This command also does same as above but otherway.
                
          echo "Messege Here" | mutt -s "Subject here" username@gmail.com -a attachment.pdf
    
-# Reference : 
+# **Reference :**
    
-   Its highly recomended to visit mutt documentation for more details.
+   - Its highly recomended to visit mutt documentation for more details.
    
                http://www.mutt.org/#doc
                
