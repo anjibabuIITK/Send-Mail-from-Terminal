@@ -1,4 +1,4 @@
- ## Send Mail From Terminal  using gmail and Mutt.
+ # Send Mail From Terminal  using gmail and Mutt.
    
 We can send mails from our terminals from gmail by using mutt package. 
 
@@ -11,12 +11,12 @@ Let see how to Install and Configure Mutt package in our PC
 
 # Install Mutt Package
 
-CentOs   : 
+**CentOs   :** 
+                 
+       yum install mutt             
+**Ubuntu   :**  
 
-                 yum install mutt             
-Ubuntu   :  
-
-                 sudo apt-get install mutt
+       sudo apt-get install mutt
 
 # Configure Mutt
 
@@ -24,7 +24,7 @@ Create these folders
 
                   mkdir -p /.mutt/cache
                   
-Create Mutt Configuration file ~/.muttrc and add below lines and change your gmail and password 
+Create **Mutt** Configuration file **~/.muttrc** and add below lines and change your gmail and password 
 
                 set from = "user@gmail.com"
                 set realname = "ANY NAME"
