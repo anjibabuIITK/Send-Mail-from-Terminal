@@ -49,6 +49,7 @@
 In your gmail, click the gear icon on right corner, open Settings ,Then click on Forwarding POP/IMAP on top , and enable IMAP Aceess . Click on configuration instructions to know more about IMAP access settings.
 
 **SSL setup:**
+
 Inorder to access your gmail from mutt, you need to provide the access rights to mutt to use smtp server. turn ON the access to the less secure app
 from the Google account. following link can be referenced.
 
